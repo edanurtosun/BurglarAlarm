@@ -2,7 +2,7 @@
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 BlynkTimer timer;
-char auth[] = ""; //blynk uygulamasından gelen anahtar
+char auth[] = "XXXX"; //blynk uygulamasından gelen anahtar
 char ssid[] = "XXXX"; //wifi ismi
 char pass[] = "XXXX"; //wifi parolası
 int flag=0; //reed switch in hareketinin kontrol edilecegi bayrak
